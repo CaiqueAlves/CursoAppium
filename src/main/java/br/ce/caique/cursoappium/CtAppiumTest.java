@@ -128,7 +128,7 @@ public class CtAppiumTest {
 		 check.click();
 		 switc.click();
 		 
-		 //Salvar > ultima ação
+		 //Salvar save> ultima ação 
 		 driver.findElement(By.xpath("//android.widget.TextView[@text='SALVAR']")).click();
 		 
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
