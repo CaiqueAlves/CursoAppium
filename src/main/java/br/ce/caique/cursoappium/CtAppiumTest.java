@@ -133,7 +133,7 @@ public class CtAppiumTest {
 		 
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 
-		 //validação de informações
+		 //validação de elementos
 		 MobileElement nome = driver.findElement(By.xpath("//android.widget.TextView[@text='Nome: Caique']"));
 		 MobileElement console = driver.findElement(By.xpath("//android.widget.TextView[@text='Console: xone']"));
 		 MobileElement SwitchOff = driver.findElement(By.xpath("//android.widget.TextView[@text='Switch: Off']"));
